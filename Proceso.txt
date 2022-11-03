@@ -1,0 +1,9 @@
+i.	Primero entré con las credenciales otorgadas a Centry.cl y extraje el código de autorización para generar mi primera Access refresh token.
+ii.	En el proceso me encontré con el problema de que en el ambiente de Centry la URL se encontraba incompleta, por lo cual recurrí a la documentación de Centry para buscar información. Me di cuenta que todos los ejemplos de las URL se encontraban escritas de la siguiente manera: ‘https://www.centry.cl/oauth/token’, a diferencia de cómo estaba escrita en el Ambiente Centry donde no se presentaban las ‘WWW.’ (Proceso destacado en las JPG adjuntadas).
+iii.	Con el proceso anterior completo, logré adquirir la información de un producto de Centry mediante Postman para desarrollar el código solicitado.
+iv.	Las tareas realizadas en el código son (Cabe destacar que en el código se encuentran los comentarios paso a paso, con el fin de también apoyarme de esta prueba para estudiar a futuro): 
+		1.	Adquirir el JSON del producto de Centry.
+		2.	Modificar el JSON de acuerdo a las tareas solicitadas en la Prueba.
+		3.	Subir el JSON modificado de vuelta a Centry.
+v.	Al aplicar el código anterior, corroboro en la página del producto si los cambios se aplicaron.
+vi.	Al estar correctos, la prueba está completa.
